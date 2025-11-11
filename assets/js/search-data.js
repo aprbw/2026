@@ -94,17 +94,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/sac-massive-sim/";
           
         },
-      },{id: "post-attention-is-all-we-do-not-need",
-        
-          title: "Attention is All We Do Not Need",
-        
-        description: "A blogpost on why attention is actually garbage. The transformer revolution has spawned a cult-like devotion to attention mechanisms, with researchers mindlessly chanting attention is all you need like some sort of neural network mantra. This paper serves as an intervention, brutally exposing how attention mechanisms are nothing more than glorified lookup tables that have somehow convinced the entire field they&#39;re revolutionary. We demonstrate that these computationally bloated, interpretability-destroying monstrosities create more problems than they solve, inducing training instabilities that would make a Victorian-era scientist weep. Through extensive experiments, we show that literally any other architecture—carrier pigeons trained on matrix multiplication, abacuses running backpropagation, even a sufficiently motivated intern with a calculator—can outperform attention-based models while using fewer parameters than a smartphone calculator app. Our results suggest that the field&#39;s Stockholm syndrome relationship with attention has reached pathological levels, and we propose immediate therapeutic intervention through a return to architectures that don&#39;t require a small country&#39;s power grid to determine if a sentence is about cats or dogs.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/my-test/";
-          
-        },
       },{id: "post-research-directions-in-multimodal-chain-of-thought-mcot-with-sketching",
         
           title: "Research Directions in Multimodal Chain-of-Thought (MCoT) with Sketching",
@@ -136,17 +125,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/diffusion-architecture-evolution/";
-          
-        },
-      },{id: "post-defining-and-quantifying-compositional-structure",
-        
-          title: "Defining and quantifying compositional structure",
-        
-        description: "Compositionality is thought to be crucial in human cognition and AI, but we lack a scientific understanding of what it is. What kind of data is compositionally structured? Can we mathematically quanity the amount and character of compositional structure? This blog post introduces a novel approach for doing so, building off of existing tools from algorithmic information theory that formalize notions of complexity and structure. The mathematical definition of compositionality that we&#39;ll come to is rigorous, precise, and general, and the hope is that it can inspire novel research directions in AI for uncovering compositional structure in natural data.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/compositionality/";
           
         },
       },{id: "books-the-godfather",
