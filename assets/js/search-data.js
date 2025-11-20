@@ -160,6 +160,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/compositionality/";
           
         },
+      },{id: "post-chunktabpfn-training-free-long-context",
+        
+          title: "ChunkTabPFN: Training-free Long Context",
+        
+        description: "Tabular foundation models struggle with large datasets due to the quadratic attention. While methods like FlashAttention promise scalability, practical challenges persist in their application to tabular foundation models. Our work resolves these hurdles, enabling efficient attention, and reveals that contrary to the eariler reports, TabPFN&#39;s performance improves with larger contexts, highlighting its inherent robustness and minimal fine-tuning needs when scaling to complex, long datasets from the TabArena benchmark.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/chunked-tabpfn/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
