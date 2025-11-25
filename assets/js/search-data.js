@@ -226,17 +226,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/chunked-tabpfn/";
           
         },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2025/2026-04-27-symbolic-connect/";
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
