@@ -182,6 +182,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/justrl/";
           
         },
+      },{id: "post-introduction-to-stochastic-interpolants",
+        
+          title: "Introduction to Stochastic Interpolants",
+        
+        description: "Prominent generative modeling frameworks such as Flow Matching and score-based Diffusion Models establish a smooth transformation between a Gaussian distribution and a data distribution. In this blog post, we provide an introduction to the more general framework of Stochastic Interpolants, which allows one to flexibly interpolate between any two distributions and learn a velocity field to transform samples from one into samples of the other. No prior knowledge of generative models is required for this introduction.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/introduction-to-stochastic-interpolants/";
+          
+        },
       },{id: "post-ai-fundamentals-valuing-ai-agents-amp-data-assets",
         
           title: "AI Fundamentals: Valuing AI Agents &amp; Data Assets",
