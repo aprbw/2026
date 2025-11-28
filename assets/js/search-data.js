@@ -149,6 +149,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/mislead-lm/";
           
         },
+      },{id: "post-on-the-measure-of-a-model-from-intelligence-to-generality",
+        
+          title: "On the Measure of a Model - From Intelligence to Generality",
+        
+        description: "Benchmarks like ARC, Raven-style puzzles, and the Blackbird Task are often treated as measures of LLM intelligence. But intelligence is a moving target—hard to define and even harder to link to what we actually need models to do, like answer questions, summarize text, or write code. Optimizing for these abstract tests can pull evaluation away from real-world usefulness. We argue for a shift from chasing intelligence to measuring generality. This reframes how progress in AI should be assessed and proposes generality as a more stable foundation for evaluating capability across diverse and evolving tasks.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/measuregen/";
+          
+        },
       },{id: "post-research-directions-in-multimodal-chain-of-thought-mcot-with-sketching",
         
           title: "Research Directions in Multimodal Chain-of-Thought (MCoT) with Sketching",
