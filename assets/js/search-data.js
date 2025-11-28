@@ -215,6 +215,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/introduction-to-stochastic-interpolants/";
           
         },
+      },{id: "post-evalcards-for-standardized-evaluation-reporting",
+        
+          title: "EvalCards for Standardized Evaluation Reporting",
+        
+        description: "In the age of rapidly released LLMs, evaluation reporting is fragmented, inconsistent, and often misleading. We surveyed the landscape and found three critical crises—reproducibility, accessibility, and governance—that Model Cards alone can&#39;t solve. Our solution? EvalCards-- lightweight, standardized evaluation summaries that are easy to write, easy to understand, and impossible to miss. EvalCards are designed to enhance transparency for both researchers and practitioners while providing a practical foundation to meet emerging governance requirements.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/evalcards/";
+          
+        },
       },{id: "post-ai-fundamentals-valuing-ai-agents-amp-data-assets",
         
           title: "AI Fundamentals: Valuing AI Agents &amp; Data Assets",
