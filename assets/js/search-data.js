@@ -105,17 +105,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/sac-massive-sim/";
           
         },
-      },{id: "post-pushing-meta-continual-learning-algorithms-to-the-limit",
-        
-          title: "Pushing Meta-Continual Learning Algorithms to the Limit",
-        
-        description: "Coming soon to a pull request near you!",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/pushing-meta-cl-methods/";
-          
-        },
       },{id: "post-language-as-a-window-into-the-mind-how-nlp-and-llms-advance-human-sciences",
         
           title: "Language as a Window Into the Mind: How NLP and LLMs Advance Human...",
