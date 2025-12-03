@@ -182,15 +182,15 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/pushing-meta-cl-methods/";
           
         },
-      },{id: "post-language-as-a-window-into-the-mind-how-nlp-and-llms-advance-human-sciences",
+      },{id: "post-performative-prediction-made-practical",
         
-          title: "Language as a Window Into the Mind: How NLP and LLMs Advance Human...",
+          title: "Performative Prediction made practical",
         
-        description: "Can NLP predict heroin-addiction outcomes, uncover suicide risk, or simulate (and even influence) brain activity? Could LLMs one day contribute to research worthy of a Nobel Prize for advancing our understanding of human behavior? And what role do NLP scientists play in shaping that possibility? This post explores these questions, arguing that language technologies are not just tools that support scientific work (like literature search agents, writing tools, or coding assistants), but that by treating language as a window into the human mind, NLP and LLMs can actively help researchers uncover mechanisms of human behavior, cognition, and brain function.",
+        description: "Performative Prediction studies settings where deploying a model induces a distribution shift in the data with the aim of building robust and good-peforming models under these post-deployment effects. Most existing work in this area is theoretical and relies on strict assumptions to converge to those models, which makes the resulting techniques difficult to apply in practice and limits their accessibility to the broader Machine Learning (ML) community. In this blog post, we use visualization techniques 1) to provide an intuitive explanation of Performative Prediction and 2) to extract practical insights for studying convergence when theoretical assumptions do not hold.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/2026/blog/2026/nlp-for-human-sciences/";
+            window.location.href = "/2026/blog/2026/performative-prediction/";
           
         },
       },{id: "post-model-misspecification-in-simulation-based-inference-recent-advances-and-open-challenges",
