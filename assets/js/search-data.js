@@ -83,17 +83,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/fans/";
           
         },
-      },{id: "post-wait-do-we-need-to-wait-revisiting-budget-forcing-for-sequential-test-time-scaling",
-        
-          title: "Wait, Do We Need to Wait? Revisiting Budget Forcing for Sequential Test-Time Scaling...",
-        
-        description: "This blog revisits budget forcing, a sequential test-time scaling technique for reasoning models by controlling when it continues thinking versus when it must answer. We evaluate how well the method transfers across model types, including non-reasoning models, and whether alternative keywords work. We provide practical guidelines for using the technique.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/wait-do-we-need-to-wait/";
-          
-        },
       },{id: "post-text-to-image-compression-for-long-context-understanding",
         
           title: "Text-to-Image compression for long context understanding",
@@ -226,17 +215,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/llm-conflicts/";
           
         },
-      },{id: "post-justrl-scaling-a-1-5b-llm-with-a-simple-rl-recipe",
-        
-          title: "JustRL: Scaling a 1.5B LLM with a Simple RL Recipe",
-        
-        description: "Training small reasoning models with RL has become a race toward complexity, using multi-stage pipelines, dynamic schedules, and curriculum learning. We ask whether this complexity necessary? We show that JustRL, a simple recipe with fixed hyperparameters, achieves state-of-the-art performance on two different 1.5B base models (54.5% and 64.3% across 9 math benchmarks) while using 2× less compute than sophisticated approaches. The same hyperparameters transfer across both models without tuning, and training remains stable over thousands of steps without intervention. This suggests the field may be adding complexity to solve problems that disappear with a stable, scaled-up baseline.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/justrl/";
-          
-        },
       },{id: "post-introduction-to-stochastic-interpolants",
         
           title: "Introduction to Stochastic Interpolants",
@@ -334,6 +312,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/distill-example/";
+          
+        },
+      },{id: "post-why-machines-can-39-t-make-up-their-mind-exploring-a-psychological-perspective-towards-llm-failures",
+        
+          title: "Why Machines Can&#39;t Make Up Their Mind? - Exploring a Psychological Perspective towards...",
+        
+        description: "We explore a unifying framework for LLM failures, including hallucinations, sycophancy, multi-hop reasoning breakdowns, and internal contradictions. We interpret these issues as energy minimization in areas with conflicting meaning. This perspective connects cognitive dissonance from psychology to the geometry of neural networks.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/dissonant-machine/";
           
         },
       },{id: "post-navigating-the-manifold-a-geometric-perspective-on-diffusion-based-inverse-problems",
