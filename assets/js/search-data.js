@@ -94,6 +94,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/wait-do-we-need-to-wait/";
           
         },
+      },{id: "post-text-to-image-compression-for-long-context-understanding",
+        
+          title: "Text-to-Image compression for long context understanding",
+        
+        description: "Humans process text through visual perception much like viewing images or videos, but current AI systems typically use different encoders and processing pipelines when handling different modalities. In this blog post, we investigate recent works that attempt a human-inspired paradigm for processing texts that is converting textual contexts into images and subsequently using visual language models (VLMs) to process them. We start by explaining technical implementations of such conversions and their strengths. We then perform evaluation on long context understanding benchmarks that are more challenging than those used in prior works, with the objective to better analyze how these methods work or fail. Finally, we implement several improvements to existing approaches, including refined conversion techniques and context preprocessing strategies before conversion to images, observing their impacts on task performance to derive insights on future research directions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/visual-long-context/";
+          
+        },
       },{id: "post-using-large-language-models-to-simulate-and-predict-human-decision-making",
         
           title: "Using Large Language Models to Simulate and Predict Human Decision-Making",
@@ -160,17 +171,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/speeding-up-rl/";
           
         },
-      },{id: "post-from-remote-sensing-foundation-models-to-world-models-a-pathway-in-the-perspective-of-generative-modeling",
-        
-          title: "From Remote Sensing Foundation Models to World Models: A pathway in the perspective...",
-        
-        description: "This blog post explores the pathway from remote sensing foundation models to world models through the lens of Generative Modeling, arguing that true understanding of the physical world comes from the ability to recreate it.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/remote-sensing-foundation-models-to-world-models/";
-          
-        },
       },{id: "post-pushing-meta-continual-learning-algorithms-to-the-limit",
         
           title: "Pushing Meta-Continual Learning Algorithms to the Limit",
@@ -191,17 +191,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/performative-prediction/";
-          
-        },
-      },{id: "post-model-misspecification-in-simulation-based-inference-recent-advances-and-open-challenges",
-        
-          title: "Model Misspecification in Simulation-Based Inference - Recent Advances and Open Challenges",
-        
-        description: "Model misspecification is a critical challenge in simulation-based inference (SBI), particularly in neural SBI methods that use simulated data to train flexible neural density estimators. These methods typically assume that simulators faithfully represent the true data-generating process, an assumption that is often violated in practice. Resulting discrepancies can make observed data effectively out-of-distribution relative to the simulations, leading to biased posterior distributions and misleading uncertainty quantification. This post reviews recent work on model misspecification in neural SBI, covering formal definitions, methods for detection and mitigation, and their underlying assumptions. It also discusses practical implications for SBI workflows and outlines open challenges for developing robust SBI methods that remain reliable in realistic, imperfectly specified applications.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/model-misspecification-in-sbi/";
           
         },
       },{id: "post-misalignments-and-rl-failure-modes-in-the-early-stage-of-superintelligence",
