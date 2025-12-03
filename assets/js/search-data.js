@@ -204,17 +204,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/model-misspecification-in-sbi/";
           
         },
-      },{id: "post-do-language-models-really-learn-to-mislead-humans-via-rlhf",
-        
-          title: "Do Language Models Really Learn to Mislead Humans via RLHF?",
-        
-        description: "This post details an investigation of claims in Language Models Learn to Mislead Humans Via RLHF (ICLR 2025) that RLHF may unintentionally lead LLM agents to mislead humans (U-Sophistry). We found that the misleading behavior in the paper is the result of an unrealistic experimental setup and not of U-Sophistry, and can therefore be categorized as intentional misleading (I-Sophistry).",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/mislead-lm/";
-          
-        },
       },{id: "post-misalignments-and-rl-failure-modes-in-the-early-stage-of-superintelligence",
         
           title: "Misalignments and RL Failure Modes in the Early Stage of Superintelligence",
