@@ -160,6 +160,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/speeding-up-rl/";
           
         },
+      },{id: "post-exploring-visual-inversion-problems-from-world-models-to-remote-sensing-image-to-image-translation",
+        
+          title: "Exploring Visual Inversion Problems: From World Models to Remote Sensing Image-to-Image Translation",
+        
+        description: "This blog post explores the underexplored problem of visual inversion in the context of world models, arguing that remote sensing data provides optimal native image pairs for image-to-image translation tasks, and investigates whether current vision foundation models can solve these visual inversion problems through in-context learning.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/remote-sensing-foundation-models-to-world-models/";
+          
+        },
       },{id: "post-pushing-meta-continual-learning-algorithms-to-the-limit",
         
           title: "Pushing Meta-Continual Learning Algorithms to the Limit",
