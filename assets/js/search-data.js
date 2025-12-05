@@ -171,17 +171,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/symbolic-connect/";
           
         },
-      },{id: "post-sparsity",
-        
-          title: "Sparsity",
-        
-        description: "Large Language Models (LLMs) have brought about a significant change in the field of artificial intelligence, where they have transitioned in scope from being specialized research tools to common resources that drive the next generation of software. With increasing model parameters and training data, LLMs demonstrate new abilities in reasoning, code generation, and solving complex problems that were once considered unattainable. However, scaling these models effectively for long-context applications uniquely poses a challenge. This is primarily due to the inherent limitations of the self-attention mechanism, which has time complexity O(N^2). This quadratic bottleneck hinders applications for long documents, high-resolution images, and large codebases, among others. However, what is interesting to observe is that effectively only a few parameters are used when outputting a token, and most calculations are sparse. Hence, Sparsity emerges as an effective solution to this problem. Rather than relying on the N x N attention matrix, one can utilize an approximate or “sparse” version of attention to achieve almost the same results much faster. The backbone of this approach is the idea that tokens do not require the entire context; they only need local context, and thus, most of the computation carried out is wasteful. In this blog, we analyze the types of attention patterns that emerge and how to use them to our advantage for faster and efficient LLMs.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/sparsity/";
-          
-        },
       },{id: "post-using-graph-neural-networks-in-reinforcement-learning-a-practical-guide",
         
           title: "Using Graph Neural Networks in Reinforcement Learning: A Practical Guide",
@@ -281,6 +270,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/feature-reduction/";
           
         },
+      },{id: "post-are-llm-agent-populations-really-emergent-a-comprehensive-perspective",
+        
+          title: "Are LLM Agent Populations Really Emergent? A Comprehensive Perspective",
+        
+        description: "Exploring emergent properties in populations of LLM agents through the lens of complex systems theory, examining social coordination, cooperation dynamics, and economic interactions in generative agent-based models.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/emergent-agents/";
+          
+        },
       },{id: "post-your-moe-model-does-not-have-to-select-fixed-number-of-experts",
         
           title: "Your MoE Model Does Not Have to Select Fixed Number of Experts",
@@ -323,17 +323,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/discretisation-invariance/";
-          
-        },
-      },{id: "post-navigating-the-manifold-a-geometric-perspective-on-diffusion-based-inverse-problems",
-        
-          title: "Navigating the Manifold — A Geometric Perspective on Diffusion-Based Inverse Problems",
-        
-        description: "This blogpost develops a geometric and probabilistic lens on diffusion priors for inverse problems. We show that a wide range of methods mostly instantiate two operator-splitting paradigms, i.e., posterior-guided sampling and clean-space local-MAP optimization. Through manifold diagrams, Tweedie-based animations, and step-by-step derivations, we explain how these paradigms decouple a pretrained diffusion prior from measurement physics, clarify when they approximate full posterior sampling versus MAP estimation, and distill practical design rules for building robust diffusion-based inverse solvers.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/diffusion-inverse-problems/";
           
         },
       },{id: "post-from-u-nets-to-dits-the-architectural-evolution-of-text-to-image-diffusion-models-2021-2025",
