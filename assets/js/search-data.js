@@ -171,17 +171,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/symbolic-connect/";
           
         },
-      },{id: "post-sparsity",
-        
-          title: "Sparsity",
-        
-        description: "Large Language Models (LLMs) have brought about a significant change in the field of artificial intelligence, where they have transitioned in scope from being specialized research tools to common resources that drive the next generation of software. With increasing model parameters and training data, LLMs demonstrate new abilities in reasoning, code generation, and solving complex problems that were once considered unattainable. However, scaling these models effectively for long-context applications uniquely poses a challenge. This is primarily due to the inherent limitations of the self-attention mechanism, which has time complexity O(N^2). This quadratic bottleneck hinders applications for long documents, high-resolution images, and large codebases, among others. However, what is interesting to observe is that effectively only a few parameters are used when outputting a token, and most calculations are sparse. Hence, Sparsity emerges as an effective solution to this problem. Rather than relying on the N x N attention matrix, one can utilize an approximate or “sparse” version of attention to achieve almost the same results much faster. The backbone of this approach is the idea that tokens do not require the entire context; they only need local context, and thus, most of the computation carried out is wasteful. In this blog, we analyze the types of attention patterns that emerge and how to use them to our advantage for faster and efficient LLMs.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/sparsity/";
-          
-        },
       },{id: "post-using-graph-neural-networks-in-reinforcement-learning-a-practical-guide",
         
           title: "Using Graph Neural Networks in Reinforcement Learning: A Practical Guide",
@@ -191,6 +180,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/rl-with-gnns/";
+          
+        },
+      },{id: "post-dynamic-parameter-reuse-augments-reasoning-via-latent-chain-of-thought",
+        
+          title: "Dynamic Parameter Reuse Augments Reasoning via Latent Chain of Thought",
+        
+        description: "Standard language models often rely on massive parameter counts for their performance, utilizing each parameter only once per inference pass. This prompts consideration of recurrent structures, where models reuse parameters across sequential time, depth, or training progression to achieve improved performance and reduced training cost. We draw connections in the landscape of parameter reuse, from growing models via stacking to recurrent looping, and postulate that these architectural priors act as a form of Latent Chain of Thought (LCoT), allowing models to reason in a continuous state space. By shifting towards deeper and dynamic computation, grown and recurrent architectures offer a path toward improved reasoning in compact networks, ascending beyond scaling laws of standard architectures.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/recurrefinereason/";
           
         },
       },{id: "post-performative-prediction-made-practical",
@@ -213,17 +213,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/neural-audio-codecs/";
-          
-        },
-      },{id: "post-misalignments-and-rl-failure-modes-in-the-early-stage-of-superintelligence",
-        
-          title: "Misalignments and RL Failure Modes in the Early Stage of Superintelligence",
-        
-        description: "With the rapid ability grokking of frontier Large Models (LMs), there is growing attention and research focus on aligning them with human values and intent via large scale reinforcement learning and other techniques. However, as LMs are getting stronger and more agentic, their misalignment and deceptive behaviors are also emerging and becoming increasingly difficult for humans to pre-detect and keep track of. This blog post discusses current misalignment patterns, deceptive behaviors, RL failure modes, and emergent traits in modern large models to further AI safety discussions and advance the development of mitigation strategies for LM misbehaviors.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/misalign-failure-mode/";
           
         },
       },{id: "post-illusion-of-mastery",
