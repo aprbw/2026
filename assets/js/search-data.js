@@ -380,6 +380,17 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/beyond-the-rerun/";
           
         },
+      },{id: "post-llm-judges-on-autopilot",
+        
+          title: "(LLM-)Judges on autopilot",
+        
+        description: "How do you evaluate Large Language Model (LLM)-based systems in production at scale? Most teams turn to an LLM-as-a-judge: an approach that grasps the nuances of natural language where classical metrics fall short. But these judge models have their own “will”: sometimes they follow instructions precisely, sometimes they don&#39;t. To address this inconsistency, the judge prompt is calibrated to align with known, trusted cases. The problem? Manual calibration is time-consuming and error-prone. In this blog post, we explore auto-calibration techniques inspired by recent prompt-optimization research. We tackle context collapse by iteratively processing data in batches, similarly to a machine learning training pipeline. Along the way, we share some surprising findings about what works and what doesn&#39;t—including cases where simpler approaches outperform more sophisticated ones.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/2026/blog/2026/auto-calibration/";
+          
+        },
       },{id: "post-a-human-centric-framework-for-debating-the-ethics-of-ai-consciousness-under-uncertainty",
         
           title: "A Human-centric Framework for Debating the Ethics of AI Consciousness Under Uncertainty",
