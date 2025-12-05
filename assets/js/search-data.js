@@ -193,17 +193,6 @@ ninja.data = [{
             window.location.href = "/2026/blog/2026/rl-with-gnns/";
           
         },
-      },{id: "post-pushing-meta-continual-learning-algorithms-to-the-limit",
-        
-          title: "Pushing Meta-Continual Learning Algorithms to the Limit",
-        
-        description: "Meta-continual learning algorithms should be able to handle tasks with extended data streams compared to the traditional deep learning setting. These algorithms have not been applied to settings with extreme data streams, such as classification tasks with 1,000 classes, nor have they been compared to traditional continual learning algorithms. We compare meta-continual learning to continual learning and we find that meta-continual learning scales better than continual learning.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/pushing-meta-cl-methods/";
-          
-        },
       },{id: "post-performative-prediction-made-practical",
         
           title: "Performative Prediction made practical",
@@ -235,17 +224,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/2026/blog/2026/measuregen/";
-          
-        },
-      },{id: "post-introduction-to-stochastic-interpolants",
-        
-          title: "Introduction to Stochastic Interpolants",
-        
-        description: "Prominent generative modeling frameworks such as Flow Matching and score-based Diffusion Models establish a smooth transformation between a Gaussian distribution and a data distribution. In this blog post, we provide an introduction to the more general framework of Stochastic Interpolants, which allows one to flexibly interpolate between any two distributions and learn a velocity field to transform samples from one into samples of the other. No prior knowledge of generative models is required for this introduction.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/2026/blog/2026/introduction-to-stochastic-interpolants/";
           
         },
       },{id: "post-generative-ai-archaeology",
